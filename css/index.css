@@ -95,6 +95,7 @@ header {
 
 header h1 {
     color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17, .8);
 }
 
 nav {
@@ -102,13 +103,13 @@ nav {
     justify-content: space-evenly;
     text-align: center;
     flex-flow: column wrap;
-    background-color: rgb(0, 4, 17, .8);
 }
 
 .links {
     display: flex;
     justify-content: space-evenly;
     color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17, .8);
 }
 
 .links a {
@@ -122,6 +123,7 @@ nav {
     margin: 0 0 1%;
     text-align: center;
     flex-direction: row;
+    background-color: rgb(0, 4, 17, .8);
 }
 
 
@@ -143,6 +145,20 @@ nav {
     height: 100vh;
     text-align: center;
     background-color: rgb(0, 4, 17);
+    padding: 2%;
+}
+
+.gallery h2 {
+    color:rgb(225, 239, 230)
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1% 5%; 
+    height: 5vh;
 }
 
 /* about us section */
@@ -167,10 +183,12 @@ nav {
 
 .about h2 {
     width: 100%;
+    color:rgb(225, 239, 230);
 }
 
 .about-container .text {
     width: 50%;
+    color: rgb(225, 239, 230);
 }
 
 /* contact us section */
@@ -187,6 +205,7 @@ nav {
     width: 100%;
     height: 100%;
     background-color: rgb(0, 4, 17, .8);
+    color: rgb(225, 239, 230);
 }
 
 .contact h2 {
@@ -220,12 +239,26 @@ nav {
     width: 25%;
 }
 
+.contacts a {
+    color: inherit;
+}
+
 /* footer section */
 footer {
     width: 100%;
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+}
+
+.footer-container {
+    background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
+}
+
+.footer-container .copyright {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* mobile media query */
