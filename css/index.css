@@ -93,6 +93,38 @@ header {
     background-repeat: no-repeat;
 }
 
+header h1 {
+    color: rgb(225, 239, 230);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-flow: column wrap;
+    background-color: rgb(0, 4, 17, .8);
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(225, 239, 230);
+}
+
+.links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 1%;
+    text-align: center;
+    flex-direction: row;
+}
+
+
 /* spacers */
 .spacer {
     width: 100%;
